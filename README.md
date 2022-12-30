@@ -7,7 +7,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/dbacilio88/api-ep-cbd-archetype-microservices?color=red)
 ![GitHub language count](https://img.shields.io/github/languages/count/dbacilio88/api-ep-cbd-archetype-microservices)
 ![GitHub followers](https://img.shields.io/github/followers/dbacilio88?style=social)
-![**GitHub watchers**](https://img.shields.io/github/watchers/dbacilio88/api-ep-cbd-archetype-microservices?style=social)
+[![GitHub watchers](https://img.shields.io/github/watchers/dbacilio88/api-ep-cbd-archetype-microservices?style=social)](https://github.com/dbacilio88/api-ep-cbd-archetype-microservices/watchers)
 ![**GitHub Repo stars**](https://img.shields.io/github/stars/dbacilio88/api-ep-cbd-archetype-microservices?style=social)
 
 # Archetype Microservices Spring Boot
