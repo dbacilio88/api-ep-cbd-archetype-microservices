@@ -1,0 +1,26 @@
+<archetype-descriptor>
+
+    <fileSets>
+
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src</directory>
+        </fileSet>
+
+        <fileSet filtered="false" encoding="UTF-8">
+            <directory/>
+            <includes>
+                <include>.gitignore</include>
+            </includes>
+        </fileSet>
+
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory/>
+            <includes>
+                <include>Dockerfile</include>
+            </includes>
+        </fileSet>
+
+    </fileSets>
+
+
+</archetype-descriptor>
