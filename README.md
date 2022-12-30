@@ -3,7 +3,7 @@
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/dbacilio88/api-ep-cbd-archetype-microservices)
 ![GitHub all releases](https://img.shields.io/github/downloads/dbacilio88/api-ep-cbd-archetype-microservices/total)
 [![GitHub contributors](https://img.shields.io/github/contributors/dbacilio88/api-ep-cbd-archetype-microservices)](https://github.com/dbacilio88/api-ep-cbd-archetype-microservices/graphs/contributors)
-![GitHub last commit](https://img.shields.io/github/last-commit/dbacilio88/api-ep-cbd-archetype-microservices?logoColor=success)
+[![GitHub last commit](https://img.shields.io/github/last-commit/dbacilio88/api-ep-cbd-archetype-microservices?logoColor=success)](https://github.com/dbacilio88/api-ep-cbd-archetype-microservices/graphs/commit-activity)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/dbacilio88/api-ep-cbd-archetype-microservices?color=red)
 ![GitHub language count](https://img.shields.io/github/languages/count/dbacilio88/api-ep-cbd-archetype-microservices)
 ![GitHub followers](https://img.shields.io/github/followers/dbacilio88?style=social)
