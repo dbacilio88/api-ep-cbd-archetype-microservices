@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-ep-cbd-demo-microservice" />
+        <module name="archetype-resources" />
       </profile>
     </annotationProcessing>
   </component>
