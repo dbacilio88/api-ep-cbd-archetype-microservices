@@ -10,16 +10,17 @@
     <packaging>maven-archetype</packaging>
 
     <properties>
-
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
 
     <!--developers-->
     <developers>
         <developer>
-            <id>cbaciliod</id>
-            <name>Chris</name>
+            <id>dbacilio</id>
             <email>dbacilio88@outlook.es</email>
+            <name>Chris</name>
         </developer>
     </developers>
     <!--developers-->
@@ -35,5 +36,12 @@
         </extensions>
     </build>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Maven Central</name>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories>
 
 </project>

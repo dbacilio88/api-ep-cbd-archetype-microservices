@@ -1,0 +1,14 @@
+# Embedded Server configuration
+server:
+    port: 8000
+    compression:
+        enabled: true
+    tomcat:
+        uri-encoding: UTF-8
+    error:
+        include-stacktrace: never
+
+
+application:
+    title: archetype
+    version: 1.0.0
