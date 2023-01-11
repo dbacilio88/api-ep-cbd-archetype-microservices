@@ -10,12 +10,16 @@
     <packaging>maven-archetype</packaging>
 
     <properties>
+        <encoding>UTF-8</encoding>
+        <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
+        <project.resources.sourceEncoding>${encoding}</project.resources.sourceEncoding>
+        <archetype.encoding>${encoding}</archetype.encoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <build.archetype-packaging.version>3.1.1</build.archetype-packaging.version>
     </properties>
 
-
-    <!--developers-->
     <developers>
         <developer>
             <id>dbacilio</id>
@@ -23,24 +27,35 @@
             <name>Chris</name>
         </developer>
     </developers>
-    <!--developers-->
-
 
     <build>
         <extensions>
             <extension>
                 <groupId>org.apache.maven.archetype</groupId>
                 <artifactId>archetype-packaging</artifactId>
-                <version>3.1.1</version>
+                <version>${build.archetype-packaging.version}</version>
             </extension>
         </extensions>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>local-releases</id>
+            <name>local-release</name>
+            <url>file:///Users//cbacilio//Documents//novopayment//ambiente//cbd//archetypes//repository//releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>local-snapshots</id>
+            <name>local-snapshot</name>
+            <url>file:///Users//cbacilio//Documents//novopayment//ambiente//cbd//archetypes//repository//snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <repositories>
         <repository>
-            <id>central</id>
-            <name>Maven Central</name>
-            <url>https://repo1.maven.org/maven2/</url>
+            <id>local-releases</id>
+            <name>local-release</name>
+            <url>file:///Users//cbacilio//Documents//novopayment//ambiente//cbd//archetypes//repository//releases</url>
         </repository>
     </repositories>
 
