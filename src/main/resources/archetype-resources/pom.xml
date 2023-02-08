@@ -10,14 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <!--<groupId>${groupId}</groupId>
+    <groupId>${groupId}</groupId>
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
-    <name>microservice-${artifactId}</name>-->
-    <groupId>ep.mil.microservices</groupId>
-    <artifactId>api-ep-cbd-demo-microservice</artifactId>
-    <version>1.0.0</version>
-    <name>microservice-api-ep-cbd-demo-microservice</name>
+    <name>microservice-${artifactId}</name>
     <description>plantilla spring boot microservice reactive</description>
 
     <properties>
@@ -104,6 +100,27 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>bacsystem-central</id>
+            <name>bacsystem-central</name>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>bacsystem-central-snapshot</id>
+            <name>bacsystem-central-snapshot</name>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>bacsystem-central</id>
+            <name>bacsystem-central</name>
+            <url>http://localhost:8081/repository/maven-public/</url>
+        </repository>
+    </repositories>
 
 
 </project>
